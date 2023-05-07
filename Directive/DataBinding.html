@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <body>
+        <div data-ng-app="" data-ng-init="quatity=1;price=5">
+            <h2>Cost caculator</h2>
+            Quatiy: <input type="number" ng-model="quantity">
+            price: <input type="number" ng-model="price">
+            <p><b>Total in dollar:</b> {{ quantity * price }}</p>
+        </div>
+    </body>
+</html>
